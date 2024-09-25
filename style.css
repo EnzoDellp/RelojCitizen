@@ -1,0 +1,199 @@
+:root {
+  --amarillo: #fce883;
+  --plata: #d0d0d0;
+  --FondoNegro: black;
+  --rojoOscuro: #dc143c;
+  --blanco: #ffff;
+}
+html,
+body {
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Inicio navBar */
+.header-top {
+  background-color: #000000d7;
+
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.navbar-flag-top {
+  width: 6rem;
+}
+.navbar-flag-top:hover {
+  cursor: pointer;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.navbar a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--rojoOscuro);
+}
+.logo-top {
+  width: 12rem;
+}
+.logo-top:hover {
+  cursor: pointer;
+}
+/* Fin navBar */
+
+/* inicio hero  */
+.hero {
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  justify-content: center;
+  background-color: var(--rojoOscuro);
+}
+.select-colors button {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  margin-right: 2rem;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 12rem;
+  border: none;
+  transition: width 0.3s ease;
+}
+.select-amarillo {
+  background-color: var(--amarillo);
+}
+.select-negro {
+  background-color: var(--FondoNegro);
+}
+.select-rojo {
+  background-color: var(--plata);
+}
+.select-negro:hover,
+.select-amarillo:hover,
+.select-rojo:hover {
+  cursor: pointer;
+  width: 8rem;
+}
+.hero h1 {
+  color: black;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-left: 4rem;
+}
+.hero p {
+  font-size: 1.5rem;
+  margin-left: 4rem;
+  font-weight: bolder;
+  text-align: center;
+  color: var(--blanco);
+}
+.cta-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cta-hero button {
+  margin-top: 2rem;
+  border: none;
+  color: var(--blanco);
+  width: 8rem;
+  height: 3.6rem;
+  border-radius: 12rem;
+  font-size: 1rem;
+  background-color: var(--FondoNegro);
+  font-family: "Orbitron";
+  font-weight: 700;
+}
+.cta-hero button:hover {
+  cursor: pointer;
+}
+/* Fin hero */
+/* Inicio Historia */
+.historia-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding-top: 15rem;
+  padding-bottom: 1.5rem;
+  background-image: url(img/wave.svg);
+  background-size: cover;
+  background-position: top;
+}
+.card-historia {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  text-align: center;
+}
+.historia-container img {
+  max-width: 30%;
+  height: auto;
+}
+.card-historia p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* Fin Historia */
+/*Inicio Descripcion  */
+.elreloj-container {
+  font-size: 1.5rem;
+  padding: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: var(--blanco);
+  background-color: var(--plata);
+
+  background: linear-gradient(
+    0deg,
+    rgba(208, 208, 208, 1) 0%,
+    rgba(0, 0, 0, 1) 62%
+  );
+  justify-content: center;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10rem;
+}
+.text-container p {
+  margin-top: -1rem;
+}
+
+.container-buttons {
+  display: flex;
+  margin-bottom: 1.5rem;
+  margin-right: 2rem;
+}
+.container-buttons button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--blanco);
+  border: none;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: background-color 1s;
+  color: var(--FondoNegro);
+}
+.container-buttons button:hover {
+  background-color: var(--rojoOscuro);
+  color: var(--blanco);
+}

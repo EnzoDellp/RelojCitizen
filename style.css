@@ -150,50 +150,73 @@ body {
 /* Fin Historia */
 /*Inicio Descripcion  */
 .elreloj-container {
-  font-size: 1.5rem;
-  padding: 10rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
+  padding-top: 10rem;
   color: var(--blanco);
   background-color: var(--plata);
-
   background: linear-gradient(
     0deg,
     rgba(208, 208, 208, 1) 0%,
     rgba(0, 0, 0, 1) 62%
   );
   justify-content: center;
+  padding-bottom: 10rem;
 }
 .text-container {
   display: flex;
-  flex-direction: column;
-  padding-right: 10rem;
-}
-.text-container p {
-  margin-top: -1rem;
-}
+  font-size: 4rem;
 
-.container-buttons {
+  margin-bottom: 3rem;
+  padding-left: 4rem;
+  font-weight: 800;
+}
+.container-card-img {
+  padding: 5rem;
+  border-radius: 5rem;
+  margin: 0 20rem 0 20rem;
   display: flex;
-  margin-bottom: 1.5rem;
-  margin-right: 2rem;
+  align-items: center;
+  justify-content: center;
 }
-.container-buttons button {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--blanco);
+.text-container-desc {
+  margin: 0 10rem 0 10rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+}
+.text-container-desc h5 {
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+.text-container-desc p {
+  margin-top: 0;
+  font-size: 2rem;
+}
+.button-container {
+  background-color: #d0d0d0;
+  border-radius: 2rem;
+  margin: 0 20rem 0 20rem;
+  display: flex;
+  padding: 1rem 0 1rem 0;
+  justify-content: center;
+  gap: 1rem;
+}
+.next {
+  font-size: 2rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 6rem;
   border: none;
-  font-size: 1.5rem;
-  margin: 0.5rem;
+  color: white;
+  background-color: black;
+  text-align: center;
+  transition: background 1s ease;
+}
+.next:hover {
   cursor: pointer;
-  transition: background-color 1s;
-  color: var(--FondoNegro);
-}
-.container-buttons button:hover {
   background-color: var(--rojoOscuro);
-  color: var(--blanco);
 }
+/*Fin Descripcion  */
+/* Inicio Galeria */
+/* Fin Galeria */
